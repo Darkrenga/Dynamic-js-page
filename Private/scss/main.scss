@@ -1,4 +1,28 @@
-/*
-* Im a filler 
-*/ 
-//Me too but i wont be dispalyed in the css file
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    padding: 10px;
+    background-color: #00071b;
+
+
+}
+ul{
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    &:visited{
+        color: white;
+    }
+}
