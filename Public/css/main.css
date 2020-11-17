@@ -1,3 +1,36 @@
-/*
-* Im a filler 
-*/
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  padding: 10px;
+  background-color: #01000c;
+}
+
+ul {
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+}
